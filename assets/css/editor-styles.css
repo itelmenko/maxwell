@@ -100,7 +100,8 @@
 }
 
 /* Post and Page Title */
-body.block-editor-page .editor-post-title__block .editor-post-title__input {
+body.block-editor-page .editor-post-title__block .editor-post-title__input,
+.editor-styles-wrapper .editor-post-title__input {
 	color: #303030;
 	color: var(--title-color);
 	font-size: 36px;
@@ -116,28 +117,32 @@ body.block-editor-page .editor-post-title__block .editor-post-title__input {
 }
 
 @media only screen and (max-width: 800px) {
-	body.block-editor-page .editor-post-title__block .editor-post-title__input {
+	body.block-editor-page .editor-post-title__block .editor-post-title__input,
+	.editor-styles-wrapper .editor-post-title__input {
 		font-size: 32px;
 		font-size: 2rem;
 	}
 }
 
 @media only screen and (max-width: 640px) {
-	body.block-editor-page .editor-post-title__block .editor-post-title__input {
+	body.block-editor-page .editor-post-title__block .editor-post-title__input,
+	.editor-styles-wrapper .editor-post-title__input {
 		font-size: 28px;
 		font-size: 1.75rem;
 	}
 }
 
 @media only screen and (max-width: 480px) {
-	body.block-editor-page .editor-post-title__block .editor-post-title__input {
+	body.block-editor-page .editor-post-title__block .editor-post-title__input,
+	.editor-styles-wrapper .editor-post-title__input {
 		font-size: 24px;
 		font-size: 1.5rem;
 	}
 }
 
 @media only screen and (max-width: 320px) {
-	body.block-editor-page .editor-post-title__block .editor-post-title__input {
+	body.block-editor-page .editor-post-title__block .editor-post-title__input,
+	.editor-styles-wrapper .editor-post-title__input {
 		font-size: 20px;
 		font-size: 1.25rem;
 	}
@@ -161,7 +166,8 @@ body.maxwell-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-
 --------------------------------------------------------------*/
 
 /* Typography */
-.edit-post-visual-editor__content-area .editor-styles-wrapper {
+.edit-post-visual-editor__content-area .editor-styles-wrapper,
+.editor-styles-wrapper {
 	color: #303030;
 	color: var(--text-color);
 	font-size: 17px;
@@ -186,7 +192,8 @@ body.maxwell-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-
 }
 
 @media only screen and (min-width: 640px) {
-	.edit-post-visual-editor__content-area .editor-styles-wrapper {
+	.edit-post-visual-editor__content-area .editor-styles-wrapper,
+	.editor-styles-wrapper {
 		font-size: 18px;
 		font-size: 1.125rem;
 	}

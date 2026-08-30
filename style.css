@@ -6,9 +6,9 @@ Theme URI: https://github.com/itelmenko/maxwell/tree/master
 Author: ThemeZee
 Author URI: https://themezee.com
 Description: Maxwell Theme from https://themezee.com/themes/maxwell/ with fixes. Unfortunately, my PR was declined. For example, it has fix for "more" tag. In admin part you can define behaviour of "Excerpt" (Theme Options -> Blog Settings -> Excerpt Settings).
-Version: 2.4.2
+Version: 2.4.3
 Requires at least: 5.2
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
 AMP: true
 License: GNU General Public License v2 or later

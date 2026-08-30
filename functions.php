@@ -210,7 +210,7 @@ function maxwell_theme_fonts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'maxwell_theme_fonts', 1 );
-add_action( 'enqueue_block_editor_assets', 'maxwell_theme_fonts', 1 );
+add_action( 'enqueue_block_assets', 'maxwell_theme_fonts', 1 );
 
 
 /**
